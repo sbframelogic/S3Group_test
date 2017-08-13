@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="FrontTests3group.exe" fullname="c:/Users/sbednarz/Documents/Visual Studio 2017/Projects/FrontTests3group/FrontTests3group/bin/Release/FrontTests3group.exe" testcasecount="5" result="Failed" start-time="2017-08-13 08:34:14Z" end-time="2017-08-13 08:35:22Z" duration="68.312490" total="5" passed="4" failed="1" inconclusive="0" skipped="0" asserts="35" random-seed="2055909793">
+  <command-line><![CDATA[FrontTests3group.exe]]></command-line>
+  <filter>
+    <test>FrontTests3group.Tests.FrontPagesTest</test>
+  </filter>
+  <test-suite type="Assembly" id="1006" name="FrontTests3group.exe" fullname="c:/Users/sbednarz/Documents/Visual Studio 2017/Projects/FrontTests3group/FrontTests3group/bin/Release/FrontTests3group.exe" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2017-08-13 08:34:14Z" end-time="2017-08-13 08:35:22Z" duration="68.312490" total="5" passed="4" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="35">
+    <environment framework-version="3.7.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="c:\Users\sbednarz\Documents\Visual Studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Release" machine-name="SBEDNARZ-HOME" user="sbednarz" user-domain="sbednarz-home" culture="pl-PL" uiculture="pl-PL" os-architecture="x86" />
+    <settings>
+      <setting name="WorkDirectory" value="c:\Users\sbednarz\Documents\Visual Studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Release" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="10636" />
+      <property name="_APPDOMAIN" value="FrontTests3group.exe" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="1007" name="FrontTests3group" fullname="FrontTests3group" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2017-08-13 08:34:14Z" end-time="2017-08-13 08:35:22Z" duration="68.296218" total="5" passed="4" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="35">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1008" name="Tests" fullname="FrontTests3group.Tests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2017-08-13 08:34:14Z" end-time="2017-08-13 08:35:22Z" duration="68.292526" total="5" passed="4" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="35">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="1000" name="FrontPagesTest" fullname="FrontTests3group.Tests.FrontPagesTest" classname="FrontTests3group.Tests.FrontPagesTest" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2017-08-13 08:34:14Z" end-time="2017-08-13 08:35:22Z" duration="68.287635" total="5" passed="4" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="35">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1001" name="HomePageTest01" fullname="FrontTests3group.Tests.FrontPagesTest.HomePageTest01" methodname="HomePageTest01" classname="FrontTests3group.Tests.FrontPagesTest" runstate="Runnable" seed="1619627848" result="Passed" start-time="2017-08-13 08:34:14Z" end-time="2017-08-13 08:34:21Z" duration="6.710640" asserts="9">
+            <output><![CDATA[Start the test for home page
+End the test
+]]></output>
+          </test-case>
+          <test-case id="1004" name="Login_from_home_pageTest04" fullname="FrontTests3group.Tests.FrontPagesTest.Login_from_home_pageTest04" methodname="Login_from_home_pageTest04" classname="FrontTests3group.Tests.FrontPagesTest" runstate="Runnable" seed="1674003194" result="Failed" label="Error" start-time="2017-08-13 08:34:21Z" end-time="2017-08-13 08:34:32Z" duration="11.579610" asserts="6">
+            <failure>
+              <message><![CDATA[System.InvalidOperationException : unknown error: $ is not defined
+  (Session info: chrome=60.0.3112.90)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.15063 x86_64)]]></message>
+              <stack-trace><![CDATA[   w OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   w OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   w OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   w OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)
+   w FrontTests3group.ModalWindows.Login.close_windows() w c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\ModalWindows\Login.cs:wiersz 44
+   w FrontTests3group.Tests.FrontPagesTest.Login_from_home_pageTest04() w c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\Tests\FrontPagesTest.cs:wiersz 78]]></stack-trace>
+            </failure>
+            <output><![CDATA[Start the test for link login user
+]]></output>
+          </test-case>
+          <test-case id="1002" name="Menu_Our_BusinessesTest02" fullname="FrontTests3group.Tests.FrontPagesTest.Menu_Our_BusinessesTest02" methodname="Menu_Our_BusinessesTest02" classname="FrontTests3group.Tests.FrontPagesTest" runstate="Runnable" seed="894400589" result="Passed" start-time="2017-08-13 08:34:32Z" end-time="2017-08-13 08:34:42Z" duration="10.195855" asserts="7">
+            <output><![CDATA[Start the test for link Our_Businesses
+End test
+]]></output>
+          </test-case>
+          <test-case id="1003" name="Menu_Our_BusinessesTest03" fullname="FrontTests3group.Tests.FrontPagesTest.Menu_Our_BusinessesTest03" methodname="Menu_Our_BusinessesTest03" classname="FrontTests3group.Tests.FrontPagesTest" runstate="Runnable" seed="358264273" result="Passed" start-time="2017-08-13 08:34:42Z" end-time="2017-08-13 08:35:10Z" duration="27.537310" asserts="4">
+            <output><![CDATA[Start the test for link Our_Businesses
+End test
+]]></output>
+          </test-case>
+          <test-case id="1005" name="Sing_Up_from_home_pageTest04" fullname="FrontTests3group.Tests.FrontPagesTest.Sing_Up_from_home_pageTest04" methodname="Sing_Up_from_home_pageTest04" classname="FrontTests3group.Tests.FrontPagesTest" runstate="Runnable" seed="1885075256" result="Passed" start-time="2017-08-13 08:35:10Z" end-time="2017-08-13 08:35:22Z" duration="12.235919" asserts="9">
+            <output><![CDATA[Start the test for Sing_Up user
+End test
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

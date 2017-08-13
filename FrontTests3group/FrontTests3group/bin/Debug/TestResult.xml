@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="FrontTests3group.exe" fullname="c:/Users/sbednarz/Documents/Visual Studio 2017/Projects/FrontTests3group/FrontTests3group/bin/Debug/FrontTests3group.exe" testcasecount="5" result="Passed" start-time="2017-08-13 08:28:31Z" end-time="2017-08-13 08:29:42Z" duration="71.671433" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="36" random-seed="1237469660">
+  <command-line><![CDATA[FrontTests3group.exe]]></command-line>
+  <filter>
+    <test>FrontTests3group.Tests.FrontPagesTest</test>
+  </filter>
+  <test-suite type="Assembly" id="1006" name="FrontTests3group.exe" fullname="c:/Users/sbednarz/Documents/Visual Studio 2017/Projects/FrontTests3group/FrontTests3group/bin/Debug/FrontTests3group.exe" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-08-13 08:28:31Z" end-time="2017-08-13 08:29:42Z" duration="71.671433" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="36">
+    <environment framework-version="3.7.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="c:\Users\sbednarz\Documents\Visual Studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug" machine-name="SBEDNARZ-HOME" user="sbednarz" user-domain="sbednarz-home" culture="pl-PL" uiculture="pl-PL" os-architecture="x86" />
+    <settings>
+      <setting name="WorkDirectory" value="c:\Users\sbednarz\Documents\Visual Studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="12260" />
+      <property name="_APPDOMAIN" value="FrontTests3group.exe" />
+    </properties>
+    <test-suite type="TestSuite" id="1007" name="FrontTests3group" fullname="FrontTests3group" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-08-13 08:28:31Z" end-time="2017-08-13 08:29:42Z" duration="71.657859" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="36">
+      <test-suite type="TestSuite" id="1008" name="Tests" fullname="FrontTests3group.Tests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-08-13 08:28:31Z" end-time="2017-08-13 08:29:42Z" duration="71.654431" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="36">
+        <test-suite type="TestFixture" id="1000" name="FrontPagesTest" fullname="FrontTests3group.Tests.FrontPagesTest" classname="FrontTests3group.Tests.FrontPagesTest" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-08-13 08:28:31Z" end-time="2017-08-13 08:29:42Z" duration="71.648703" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="36">
+          <test-case id="1001" name="HomePageTest01" fullname="FrontTests3group.Tests.FrontPagesTest.HomePageTest01" methodname="HomePageTest01" classname="FrontTests3group.Tests.FrontPagesTest" runstate="Runnable" seed="1985208679" result="Passed" start-time="2017-08-13 08:28:31Z" end-time="2017-08-13 08:28:39Z" duration="7.887565" asserts="9">
+            <output><![CDATA[Start the test for home page
+End the test
+]]></output>
+          </test-case>
+          <test-case id="1004" name="Login_from_home_pageTest04" fullname="FrontTests3group.Tests.FrontPagesTest.Login_from_home_pageTest04" methodname="Login_from_home_pageTest04" classname="FrontTests3group.Tests.FrontPagesTest" runstate="Runnable" seed="291700932" result="Passed" start-time="2017-08-13 08:28:39Z" end-time="2017-08-13 08:28:52Z" duration="12.926464" asserts="7">
+            <output><![CDATA[Start the test for link login user
+End test
+]]></output>
+          </test-case>
+          <test-case id="1002" name="Menu_Our_BusinessesTest02" fullname="FrontTests3group.Tests.FrontPagesTest.Menu_Our_BusinessesTest02" methodname="Menu_Our_BusinessesTest02" classname="FrontTests3group.Tests.FrontPagesTest" runstate="Runnable" seed="375429069" result="Passed" start-time="2017-08-13 08:28:52Z" end-time="2017-08-13 08:29:01Z" duration="9.613366" asserts="7">
+            <output><![CDATA[Start the test for link Our_Businesses
+End test
+]]></output>
+          </test-case>
+          <test-case id="1003" name="Menu_Our_BusinessesTest03" fullname="FrontTests3group.Tests.FrontPagesTest.Menu_Our_BusinessesTest03" methodname="Menu_Our_BusinessesTest03" classname="FrontTests3group.Tests.FrontPagesTest" runstate="Runnable" seed="2030791874" result="Passed" start-time="2017-08-13 08:29:01Z" end-time="2017-08-13 08:29:29Z" duration="27.779236" asserts="4">
+            <output><![CDATA[Start the test for link Our_Businesses
+End test
+]]></output>
+          </test-case>
+          <test-case id="1005" name="Sing_Up_from_home_pageTest04" fullname="FrontTests3group.Tests.FrontPagesTest.Sing_Up_from_home_pageTest04" methodname="Sing_Up_from_home_pageTest04" classname="FrontTests3group.Tests.FrontPagesTest" runstate="Runnable" seed="1499594874" result="Passed" start-time="2017-08-13 08:29:29Z" end-time="2017-08-13 08:29:42Z" duration="13.415786" asserts="9">
+            <output><![CDATA[Start the test for Sing_Up user
+End test
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

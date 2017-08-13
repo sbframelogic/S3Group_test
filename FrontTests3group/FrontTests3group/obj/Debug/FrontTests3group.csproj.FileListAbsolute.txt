@@ -1,0 +1,14 @@
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug\FrontTests3group.exe.config
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug\FrontTests3group.exe
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug\FrontTests3group.pdb
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug\nunit.framework.dll
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug\nunitlite.dll
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug\nunit.framework.xml
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\obj\Debug\FrontTests3group.exe
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\obj\Debug\FrontTests3group.pdb
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug\ThoughtWorks.Selenium.Core.dll
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug\WebDriver.dll
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug\WebDriver.Support.dll
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug\ThoughtWorks.Selenium.Core.xml
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug\WebDriver.xml
+c:\users\sbednarz\documents\visual studio 2017\Projects\FrontTests3group\FrontTests3group\bin\Debug\WebDriver.Support.xml
